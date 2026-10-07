@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Histórico de Dados</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div class="Inicio">
+
+        <!-- MENU -->
+        <aside class="menu">
+
+            <h2>🌦️ ESTAÇÃO<br>METEOROLÓGICA</h2>
+
+            <nav>
+                <a href="index.html">🏠 Inicio</a>
+                <a href="dados.html">📊 Dados Ambientais</a>
+                <a href="historico.html" class="ativo">📈 Histórico</a>
+                <a href="mapa.html">🗺️ Mapa da Estação</a>
+                <a href="sobre.html">ℹ️ Sobre o Projeto</a>
+            </nav>
+
+        </aside>
+
+
+        <!-- CONTEÚDO -->
+        <main class="conteudo">
+
+            <header>
+
+                <h1>Histórico de Dados</h1>
+
+                <p>
+                    Gráficos históricos dos dados ao longo do tempo.
+                </p>
+
+            </header>
+
+
+            <!-- FILTROS -->
+
+            <section class="filtros">
+
+                <div>
+                    <label>Sensor</label>
+
+                    <select>
+                        <option>Temperatura</option>
+                        <option>Umidade</option>
+                        <option>Pressão</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <label>Período</label>
+
+                    <select>
+                        <option>Últimos 7 dias</option>
+                        <option>Últimas 24 horas</option>
+                        <option>Últimos 30 dias</option>
+                    </select>
+                </div>
+
+                <button>Exportar</button>
+
+            </section>
+
+
+            <!-- GRÁFICO -->
+
+            <section class="card">
+
+                <h2>Temperatura</h2>
+
+                <div class="grafico">
+
+                    <div class="linha linha1"></div>
+                    <div class="linha linha2"></div>
+                    <div class="linha linha3"></div>
+                    <div class="linha linha4"></div>
+
+                    <div class="grafico-linha"></div>
+
+                </div>
+
+                <div class="horarios">
+                    <span>00:00</span>
+                    <span>04:00</span>
+                    <span>08:00</span>
+                    <span>12:00</span>
+                    <span>16:00</span>
+                    <span>20:00</span>
+                    <span>24:00</span>
+                </div>
+
+            </section>
+
+
+            <!-- RESUMO -->
+
+            <section class="resumo">
+
+                <div class="info">
+                    <p>Valor Máximo</p>
+                    <strong>28,4 °C</strong>
+                </div>
+
+                <div class="info">
+                    <p>Valor Mínimo</p>
+                    <strong>18,7 °C</strong>
+                </div>
+
+                <div class="info">
+                    <p>Média do Período</p>
+                    <strong>23,6 °C</strong>
+                </div>
+
+                <div class="info">
+                    <p>Dados Coletados</p>
+                    <strong>168</strong>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
+

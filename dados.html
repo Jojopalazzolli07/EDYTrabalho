@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Ambientais</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="Inicio">
+        <!-- MENU LATERAL -->
+        <aside class="menu">
+
+            <h2>🌦️ ESTAÇÃO<br>METEOROLÓGICA</h2>
+
+            <nav>
+                <a href="index.html">🏠 Inicio</a>
+                <a href="dados.html">📊 Dados Ambientais</a>
+                <a href="historico.html">📍 Histórico</a>
+                <a href="mapa.html">🗺️ Mapa da Estação</a>
+                <a href="sobre.html">ℹ️ Sobre o Projeto</a>
+            </nav>
+
+        </aside>
+
+           <!-- CONTEÚDO -->
+        <main class="conteudo">
+
+            <header>
+                <h1>Dados Ambientais</h1>
+                <p>Informações detalhadas dos dados atuais da estação.</p>
+            </header>
+
+               <!-- TABELA -->
+            <section class="card">
+
+                <div class="cabecalho-tabela">
+                    <h2>Dados Ambientais</h2>
+
+                    <select>
+                        <option>Hoje</option>
+                        <option>Últimas 24 horas</option>
+                        <option>Últimos 7 dias</option>
+                    </select>
+                </div>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sensor</th>
+                            <th>Descrição</th>
+                            <th>Valor Atual</th>
+                            <th>Status</th>
+                            <th>Tendência</th>
+                        </tr>
+                    </thead>
+                      <tbody>
+
+                        <tr>
+                            <td>🌡️ Temperatura</td>
+                            <td>Temperatura do ar</td>
+                            <td>26,4 °C</td>
+                            <td><span class="status moderado">Moderado</span></td>
+                            <td>↗️</td>
+                        </tr>
+
+                        <tr>
+                            <td>💧 Umidade</td>
+                            <td>Umidade relativa do ar</td>
+                            <td>68%</td>
+                            <td><span class="status moderado">Moderado</span></td>
+                            <td>↘️</td>
+                        </tr>
+
+                        <tr>
+                             <td>💨 Pressão</td>
+                            <td>Pressão atmosférica</td>
+                            <td>1012 hPa</td>
+                            <td><span class="status bom">Bom</span></td>
+                            <td>→</td>
+                        </tr>
+
+                        <tr>
+                            <td>🌫️ Qualidade do Ar</td>
+                            <td>Concentração de gases</td>
+                            <td>42 PPM</td>
+                            <td><span class="status bom">Boa</span></td>
+                            <td>↗️</td>
+                        </tr>
+
+                        <tr>
+                            <td>☀️ Luminosidade</td>
+                            <td>Nível de luminosidade</td>
+                            <td>75%</td>
+                            <td><span class="status bom">Boa</span></td>
+                            <td>→</td>
+                        </tr>
+
+                        <tr>
+                            <td>🌧️ Chuva</td>
+                            <td>Volume de precipitação</td>
+                            <td>12,7 mm</td>
+                            <td><span class="status baixo">Baixo</span></td>
+                            <td>↘️</td>
+                        </tr>
+
+
+                  </tbody>
+
+                </table>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    
+</body>
+</html>
